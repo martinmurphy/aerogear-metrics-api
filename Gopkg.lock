@@ -2,16 +2,6 @@
 
 
 [[projects]]
-  branch = "master"
-  name = "github.com/aerogear/aerogear-metrics-api"
-  packages = [
-    "pkg/dao",
-    "pkg/mobile",
-    "pkg/web"
-  ]
-  revision = "79062a57064feab75efe8c4e4ab6f24239d3d1c3"
-
-[[projects]]
   name = "github.com/darahayes/go-boom"
   packages = ["."]
   revision = "593134141157b11f33ed91c68cc279e9e3ae539c"
@@ -29,9 +19,18 @@
   revision = "53c1911da2b537f792e7cafcb446b05ffe33b996"
   version = "v1.6.1"
 
+[[projects]]
+  branch = "master"
+  name = "github.com/lib/pq"
+  packages = [
+    ".",
+    "oid"
+  ]
+  revision = "88edab0803230a3898347e77b474f8c1820a1f20"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2ad010c9f6188877efe08ac35ff10a02ba4d4202c8a78e489a1d560a60fc4dbc"
+  inputs-digest = "9078497a83d301ee5230a5970fc382c993cde488695836a386d83d573a7baae3"
   solver-name = "gps-cdcl"
   solver-version = 1
